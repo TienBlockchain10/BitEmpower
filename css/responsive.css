@@ -2,14 +2,19 @@
 
 @media (max-width: 1120px) {}
 
-@media (max-width: 992px) {
+@media (max-width: 992) {
   .hero_area {
     min-height: auto;
+    background-image: url('images/greymobile.jpg');
+    /* Add this line */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
-  .hero_area {
+  /* .hero_area {
     background: linear-gradient(130deg, #231a6f, #0f054c);
-  }
+  } */
 
   .hero_area .hero_bg_box {
     display: none;
