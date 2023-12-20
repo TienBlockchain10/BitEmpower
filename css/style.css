@@ -339,8 +339,7 @@ a:focus {
 
 /*MY CODE*/
 .custom_nav-container .navbar-nav .nav-item .nav-link.btn-special {
-  display: inline-block;
-  padding: 10px 20px;
+
   background-color: #ff2e17d2;
   /* A distinct color for emphasis */
   color: #ffffff !important;
@@ -352,8 +351,9 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
-  margin-left: 10px;
-  /* Add some left margin if needed */
+
+
+
   text-transform: uppercase;
   /* Optional: uppercase text for more emphasis */
 }
