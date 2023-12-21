@@ -480,9 +480,9 @@ a:focus {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  width: 125px;
-  min-width: 75px;
-  height: 75px;
+  width: 225px;
+  min-width: 150px;
+  height: 150px;
   margin-bottom: 15px;
 }
 
