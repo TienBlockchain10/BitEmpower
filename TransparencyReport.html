@@ -245,21 +245,6 @@
   <!-- End Google Map -->
 
 
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      // Fetch data from the Bitstamp API for the BTC/USD ticker
-      fetch('https://www.bitstamp.net/api/v2/ticker/btcusd/')
-        .then(response => response.json()) // Parse the response as JSON
-        .then(data => {
-          // Update the "Total Raised" content with the 'open' price from Bitstamp
-          const btcOpenPrice = parseFloat(data.open).toFixed(2);
-          document.getElementById('total-raised').textContent = `$${btcOpenPrice}`;
-        })
-        .catch(error => {
-          console.error('There has been a problem with your fetch operation:', error);
-        });
-    });
-  </script>
 
 
 
