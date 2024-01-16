@@ -1024,3 +1024,18 @@ a:focus {
 
 
 /*# sourceMappingURL=style.css.map */
+
+
+button {
+  /* Button styles */
+  background-color: #ff2d17;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#textToCopy {
+  /* Text styles */
+  margin: 10px 0;
+}
